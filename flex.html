@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .container {
+            width: 90px;
+        }
+
+        .block {
+            width: 20px;
+            height: 20px;
+            background: wheat;
+        }
+
+        .child1 {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .child2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .child3 {
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="child1">
+            <div class="block"></div>
+        </div>
+        <div class="child2">
+            <div class="block"></div>
+        </div>
+        <div class="child3">
+            <div class="block"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
